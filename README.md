@@ -8,7 +8,7 @@
 <p align="center">
   <a><img src="https://img.shields.io/badge/Support-Debian-red.svg"></a>
   <a><img src="https://img.shields.io/badge/Support-Ubuntu-orange.svg"></a>
-  <a><img src="https://img.shields.io/badge/Support-Centos-success.svg"></a>
+  <a><img src="https://img.shields.io/badge/Support-Centos-purple.svg"></a>
   
 </p>
 <h3 align="center">Services</h3>
