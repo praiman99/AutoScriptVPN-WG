@@ -42,7 +42,7 @@ Credit To : https://t.me/horasss (Orignal Base Script)
 
 Credit To : https://github.com/johndesu090/AutoScriptDeb8 (Orignal Menu Script)
 
-Report Bugs Contact : https://t.me/PR_Aiman
+Report Bugs Contact :
   
 <p align="center">
 <a href="https://github.com/praiman99"><img title="Github" src="https://img.shields.io/badge/PR Aiman-brightgreen?style=for-the-badge&logo=github"></a>
