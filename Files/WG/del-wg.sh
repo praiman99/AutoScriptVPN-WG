@@ -44,6 +44,7 @@ source /etc/wireguard/params
 	systemctl restart "wg-quick@$SERVER_WG_NIC"
 	service cron restart
 clear
+echo ""
 echo -e "\e[0;37m Wireguard Account Deleted Successfully"
 echo -e "\e[1;31m[*][*][*]==========================[*][*][*]"
 echo -e "\e[0;37m Client Name : $user"
