@@ -66,7 +66,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://github.com/praiman99/AutoScriptVPN-W
 /etc/init.d/nginx restart
 
 #mkdir /var/lib/premium-script && echo "IP=$(curl -s ipinfo.io/ip)" >> /var/lib/premium-script/ipvps.conf
-
+rm -f setup.sh
 #install Wireguard
 wget https://github.com/praiman99/AutoScriptVPN-WG/raw/beginner/Files/WG/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install additional tools
