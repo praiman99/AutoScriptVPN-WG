@@ -8,6 +8,7 @@ NC='\e[0m'
 apt -y install wget curl git make
 
 # Installation Toast
+echo ""
 echo -e "\e[0;37m Thanks For Willing To Used My Script! "
 sleep 0.5
 echo ""
