@@ -24,6 +24,7 @@
  
  <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/" width="100%">
  <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/" width="100%">
   
   </h3>
   
