@@ -46,7 +46,7 @@ fi
 	CLIENT_DNS_2="176.103.130.131"
 	MYIP=$(wget -qO- ifconfig.co);
 	read -p " Expired (days): " masaaktif
-	exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
+	exp=`date -d "$masaaktif days" +"%d-%m-%Y"`
 
 	# Generate key pair for the client
 	CLIENT_PRIV_KEY=$(wg genkey)
@@ -95,9 +95,9 @@ AllowedIPs = $CLIENT_ADDRESS/32" >>"/etc/wireguard/$SERVER_WG_NIC.conf"
      echo -e "\e[0;37m Endpoint : $ENDPOINT"
      echo -e "\e[0;37m AllowedIPs : $CLIENT_ADDRESS/32"
     echo -e "\e[1;31m[*][*][*]===============================[*][*][*]"
-	echo -e "\e[0;37m Wireguard	: http://$MYIP:81/$CLIENT_NAME.conf"
+	echo -e "\e[0;37m Wireguard : http://$MYIP:81/$CLIENT_NAME.conf"
 	echo -e "\e[1;31m[*][*][*]===============================[*][*][*]"
-	echo -e "\e[0;37m Expired On      : $exp"
+	echo -e "\e[0;37m Expired On : $exp"
 	rm -f /root/wg0-client-$CLIENT_NAME.conf
 	echo ""
     read -sp " Press ENTER to go back"
