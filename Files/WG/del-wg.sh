@@ -17,7 +17,6 @@ source /etc/wireguard/params
 
 	clear
 	echo ""
-	echo ""
 	echo -e "\e[0;37m Select the existing client you want to remove"
 	echo -e "\e[0;37m Press CTRL+C to return"
 	echo -e "\e[1;31m[*][*][*]===============================[*][*][*]"
