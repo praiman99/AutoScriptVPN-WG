@@ -196,6 +196,7 @@ echo "   - Zahyyvpnstore           : https://t.me/Zahyy_33"  | tee -a log-instal
 echo "   - Evil Plankton           : https://t.me/planktoneye"  | tee -a log-install.txt
 echo "   - VPNNEO.com              : https://t.me/vpnneo"  | tee -a log-install.txt
 echo "   - Incorrect               : https://t.me/incorrect_cuy"  | tee -a log-install.txt
+echo "   - Khoceng                 : https://t.me/KhocengReal765"  | tee -a log-install.txt
 echo "   - ipaan                   : https://t.me/irfanmlnaaysf"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "--------------------------Script Remodified By PR Aiman-------------------------" | tee -a log-install.txt
