@@ -76,7 +76,7 @@ wget -O change_timezone https://github.com/praiman99/AutoScriptVPN-WG/raw/beginn
 rm -f /root/wg.sh
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "revolution-become-true.tech/password"
+wget -O /etc/pam.d/common-password "username/password"
 chmod +x /etc/pam.d/common-password
 
 # install fail2ban
@@ -194,8 +194,8 @@ echo "   - -Mawar X86-             : https://t.me/mawarx86"  | tee -a log-instal
 echo "   - Zahyyvpnstore           : https://t.me/Zahyy_33"  | tee -a log-install.txt
 echo "   - Evil Plankton           : https://t.me/planktoneye"  | tee -a log-install.txt
 echo "   - VPNNEO.com              : https://t.me/vpnneo"  | tee -a log-install.txt
+echo "   - Incorrect               : https://t.me/incorrect_cuy"  | tee -a log-install.txt
 echo "   - ipaan                   : https://t.me/irfanmlnaaysf"  | tee -a log-install.txt
-echo "   - PR Aiman                : https://t.me/PR_Aiman"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "--------------------------Script Remodified By PR Aiman-------------------------" | tee -a log-install.txt
 echo ""
