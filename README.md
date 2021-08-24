@@ -12,9 +12,7 @@
 </p>
 <h3 align="center">Services</h3>
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Service-Vmess-success.svg"></a>
-  <a><img src="https://img.shields.io/badge/Service-Vless-success.svg"></a>
-  <a><img src="https://img.shields.io/badge/Service-Trojan-success.svg"></a>
+  <a><img src="https://img.shields.io/badge/Service-Wireguard-success.svg"></a>
  </p>
 <h3 align="center">Commands</h3>
 <p align="center">
