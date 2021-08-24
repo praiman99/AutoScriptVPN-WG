@@ -21,9 +21,8 @@
     
  <h3 align="center">Screenshorts</h3>
  
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/" width="100%">
   
   </h3>
   
@@ -35,7 +34,7 @@
 
 <h3 align="center">Additional Info</h3>
 <p align="center">
-Recommended OS: Debian & Ubuntu x64 bit
+Recommended OS: Debian , Ubuntu * Centos x64 bit
 
 Credit To : https://t.me/horasss (Orignal Base Script)
 
