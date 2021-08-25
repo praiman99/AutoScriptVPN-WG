@@ -36,7 +36,10 @@
 
 <h3 align="center">Additional Info</h3>
 <p align="center">
-Recommended OS: Debian , Ubuntu & Centos x64 bit
+Recommended OS: 
+- Debian 9 & 10 x64 bit
+- Ubuntu 18.04 & 20.04 x64 bit
+- Centos 7 & 8 x64 bit
 
 Credit To : https://t.me/horasss (Orignal Base Script)
 
