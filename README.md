@@ -35,8 +35,7 @@
 </pre></p>
 
 <h3 align="center">Additional Info</h3>
-<p align="center">
-Recommended OS: 
+Recommended OS :
 
  - Debian 9 & 10 x64 bit
 
