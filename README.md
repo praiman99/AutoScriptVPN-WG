@@ -22,9 +22,9 @@
     
  <h3 align="center">Screenshorts</h3>
  
- <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/1.PNG" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/2.PNG" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/3.PNG" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/ .PNG" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/ .PNG" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-WG/beginner/Screenshort/ .PNG" width="100%">
   
   </h3>
   
