@@ -66,6 +66,17 @@ mkdir -p /home/vps/public_html
 wget -O /etc/nginx/conf.d/vps.conf "https://github.com/praiman99/AutoScriptVPN-WG/raw/beginner/Files/Plugins/vps.conf"
 /etc/init.d/nginx restart
 
+
+
+# Allow IPv4 Forwarding
+sed -i '/net.ipv4.ip_forward.*/d' /etc/sysctl.conf
+sed -i '/net.ipv4.ip_forward.*/d' /etc/sysctl.d/*.conf
+echo 'net.ipv4.ip_forward=1' > /etc/sysctl.d/20-openvpn.conf
+sysctl --system &> /dev/null
+
+# Enabling IPv4 Forwarding
+ echo 1 > /proc/sys/net/ipv4/ip_forward
+
 #mkdir /var/lib/premium-script && echo "IP=$(curl -s ipinfo.io/ip)" >> /var/lib/premium-script/ipvps.conf
 rm -f setup.sh
 #install Wireguard
