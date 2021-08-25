@@ -40,10 +40,10 @@ fi
 	CLIENT_ADDRESS="10.66.66.$((LASTIP+1))"
 	fi
 
-	# Adguard DNS by default
-	CLIENT_DNS_1="176.103.130.130"
+	# Cloudflare DNS by default
+	CLIENT_DNS_1="1.1.1.1"
 
-	CLIENT_DNS_2="176.103.130.131"
+	CLIENT_DNS_2="1.0.0.1"
 	MYIP=$(wget -qO- ifconfig.co);
 	read -p " Expired (days): " masaaktif
 	exp=`date -d "$masaaktif days" +"%d-%m-%Y"`
@@ -95,7 +95,7 @@ AllowedIPs = $CLIENT_ADDRESS/32" >>"/etc/wireguard/$SERVER_WG_NIC.conf"
      echo -e "\e[0;37m Endpoint : $ENDPOINT"
      echo -e "\e[0;37m AllowedIPs : $CLIENT_ADDRESS/32"
     echo -e "\e[1;31m[*][*][*]===============================[*][*][*]"
-	echo -e "\e[0;37m Wireguard : http://$MYIP:81/$CLIENT_NAME.conf"
+	echo -e "\e[0;37m Config LInk : http://$MYIP:81/$CLIENT_NAME.conf"
 	echo -e "\e[1;31m[*][*][*]===============================[*][*][*]"
 	echo -e "\e[0;37m Expired On : $exp"
 	rm -f /root/wg0-client-$CLIENT_NAME.conf
