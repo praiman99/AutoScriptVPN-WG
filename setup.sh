@@ -66,8 +66,6 @@ mkdir -p /home/vps/public_html
 wget -O /etc/nginx/conf.d/vps.conf "https://github.com/praiman99/AutoScriptVPN-WG/raw/beginner/Files/Plugins/vps.conf"
 /etc/init.d/nginx restart
 
-
-
 # Allow IPv4 Forwarding
 sed -i '/net.ipv4.ip_forward.*/d' /etc/sysctl.conf
 sed -i '/net.ipv4.ip_forward.*/d' /etc/sysctl.d/*.conf
@@ -206,6 +204,7 @@ echo "   - -Mawar X86-             : https://t.me/mawarx86"  | tee -a log-instal
 echo "   - Zahyyvpnstore           : https://t.me/Zahyy_33"  | tee -a log-install.txt
 echo "   - Evil Plankton           : https://t.me/planktoneye"  | tee -a log-install.txt
 echo "   - VPNNEO.com              : https://t.me/vpnneo"  | tee -a log-install.txt
+echo "   - VPNStunnel.com          : https://t.me/denb4gus"  | tee -a log-install.txt
 echo "   - Incorrect               : https://t.me/incorrect_cuy"  | tee -a log-install.txt
 echo "   - Khoceng                 : https://t.me/KhocengReal765"  | tee -a log-install.txt
 echo "   - ipaan                   : https://t.me/irfanmlnaaysf"  | tee -a log-install.txt
