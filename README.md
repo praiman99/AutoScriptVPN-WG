@@ -43,8 +43,7 @@ Recommended OS :
 
 - Centos 7 & 8 x64 bit
 
-Credit To : 
-https://t.me/horasss (Orignal Base Script)
+Credit To : https://t.me/horasss (Orignal Base Script)
 
 Credit To : https://github.com/johndesu090/AutoScriptDeb8 (Orignal Menu Script)
 
